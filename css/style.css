@@ -25,6 +25,7 @@ body{
     font-size: 17px;
     text-align: center;
     color: #3b3b3b;
+    vertical-align: middle;
 }
 
 .topnav-right a:hover{
@@ -39,12 +40,25 @@ img{
     display: inline-block;
 }
 
+/*.grid-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-row: auto auto;
+    row-gap: 10px;
+    column-gap: 10px;
+}*/
+
 .container {
     position: relative;
     max-width: 50%;
     max-height: 50%;
-    float: left;
-    display: inline;
+    margin: 10px;
+}
+
+.grid-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
   
 .overlay {
