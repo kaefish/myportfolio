@@ -55,6 +55,16 @@ img{
     margin: 10px;
 }
 
+@media (max-width: 800px) {
+    .grid-container {
+      flex-direction: column;
+    }
+    .container{
+        max-width: 90%;
+        max-height: 40%;
+    }
+  }
+
 .grid-container{
     display: flex;
     flex-direction: row;
